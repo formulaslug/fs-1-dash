@@ -8,8 +8,87 @@ NS_ :
 
 BU_: SPICY_BOI
 
+BO_ 1058 BMS_Stats: 8 SPICY_BOI
+ SG_ Total_Voltage : 7|16@1+ (0.01,0) [0|0] "voltage:V"
+ SG_ Max_Cell_Voltage : 31|8@1+ (0.1,0) [0|0] "voltage:V"
+ SG_ Min_Cell_Voltage : 39|8@1+ (0.1,0) [0|0] "voltage:V"
+ SG_ Max_Cell_Temp: 47|8@1- (1,0) [0|0] "temperature:C"
+ SG_ Min_Cell_Temp: 55|8@1- (1,0) [0|0] "temperature:C"
+
 BO_ 1059 BMS_Voltage_0: 8 SPICY_BOI
- SG_ Cell_V_0_1 : 7|16@0- (0.001,0) [0|0] "voltage:V" 
- SG_ Cell_V_0_2 : 23|16@0- (0.001,0) [0|0] "voltage:V" 
- SG_ Cell_V_0_3 : 39|16@0- (0.001,0) [0|0] "voltage:V" 
- SG_ Cell_V_0_4 : 63|16@0- (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_0_1 : 7|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_0_2 : 23|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_0_3 : 39|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_0_4 : 63|16@1+ (0.001,0) [0|0] "voltage:V" 
+
+BO_ 1060 BMS_Voltage_1: 8 SPICY_BOI
+ SG_ Cell_V_1_1 : 7|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_1_2 : 23|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_1_3 : 39|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_1_4 : 63|16@1+ (0.001,0) [0|0] "voltage:V" 
+
+BO_ 1061 BMS_Voltage_2: 8 SPICY_BOI
+ SG_ Cell_V_2_1 : 7|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_2_2 : 23|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_2_3 : 39|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_2_4 : 63|16@1+ (0.001,0) [0|0] "voltage:V" 
+
+BO_ 1062 BMS_Voltage_3: 8 SPICY_BOI
+ SG_ Cell_V_3_1 : 7|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_3_2 : 23|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_3_3 : 39|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_3_4 : 63|16@1+ (0.001,0) [0|0] "voltage:V" 
+
+BO_ 1063 BMS_Voltage_4: 8 SPICY_BOI
+ SG_ Cell_V_4_1 : 7|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_4_2 : 23|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_4_3 : 39|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_4_4 : 63|16@1+ (0.001,0) [0|0] "voltage:V" 
+
+BO_ 1064 BMS_Voltage_5: 8 SPICY_BOI
+ SG_ Cell_V_5_1 : 7|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_5_2 : 23|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_5_3 : 39|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_5_4 : 63|16@1+ (0.001,0) [0|0] "voltage:V" 
+
+BO_ 1065 BMS_Voltage_6: 8 SPICY_BOI
+ SG_ Cell_V_6_1 : 7|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_6_2 : 23|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_6_3 : 39|16@1+ (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_6_4 : 63|16@1+ (0.001,0) [0|0] "voltage:V" 
+
+BO_ 1062 BMS_Temp_0: 7 SPICY_BOI
+ SG_ Cell_Temp_0_1 : 7|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_0_2 : 15|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_0_3 : 23|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_0_4 : 31|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_0_5 : 39|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_0_6 : 47|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_0_7 : 55|8@1- (1,0) [0|0] "temperature:C" 
+
+BO_ 1063 BMS_Temp_1: 7 SPICY_BOI
+ SG_ Cell_Temp_1_1 : 7|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_1_2 : 15|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_1_3 : 23|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_1_4 : 31|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_1_5 : 39|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_1_6 : 47|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_1_7 : 55|8@1- (1,0) [0|0] "temperature:C" 
+
+BO_ 1064 BMS_Temp_2: 7 SPICY_BOI
+ SG_ Cell_Temp_2_1 : 7|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_2_2 : 15|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_2_3 : 23|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_2_4 : 31|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_2_5 : 39|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_2_6 : 47|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_2_7 : 55|8@1- (1,0) [0|0] "temperature:C" 
+
+BO_ 1065 BMS_Temp_3: 7 SPICY_BOI
+ SG_ Cell_Temp_3_1 : 7|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_3_2 : 15|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_3_3 : 23|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_3_4 : 31|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_3_5 : 39|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_3_6 : 47|8@1- (1,0) [0|0] "temperature:C" 
+ SG_ Cell_Temp_3_7 : 55|8@1- (1,0) [0|0] "temperature:C" 
