@@ -1,0 +1,15 @@
+VERSION ""
+
+NS_ : 
+	BU_
+	BU_
+	CM_
+	BO_TX_BU_
+
+BU_: SPICY_BOI
+
+BO_ 1059 BMS_Voltage_0: 8 SPICY_BOI
+ SG_ Cell_V_0_1 : 7|16@0- (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_0_2 : 23|16@0- (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_0_3 : 39|16@0- (0.001,0) [0|0] "voltage:V" 
+ SG_ Cell_V_0_4 : 63|16@0- (0.001,0) [0|0] "voltage:V" 
